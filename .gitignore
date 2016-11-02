@@ -1,4 +1,6 @@
+#
 # Visual Studio
+#
 .vs
 *.VC.db
 *.opensdf
@@ -16,14 +18,26 @@
 DBProCompiler/DBPCompilerEXE/Debug
 DBProCompiler/DBPCompiler/DarkEXE.*
 Dark Basic Public Shared/Dark Basic Pro SDK/DarkSDK/*/Debug
+Dark Basic Public Shared/Dark Basic Pro SDK/DarkSDK/*/Release
 Dark Basic Public Shared/Dark Basic Pro SDK/DarkSDKMore/*/Debug
-Install/Compiler/DBPCompiler.res
-Install/Compiler/DBPCompiler.exe
-Install/Compiler/plugins-user/*.dll
-*/Debug/GameFX.res
+Dark Basic Public Shared/Dark Basic Pro SDK/DarkSDKMore/*/Release
 
+DBPCompiler.res
+dbproexe.res
+
+#
 # Output
+#
+Install/Compiler/DarkBasic.exe
 Install/Compiler/plugins/*.dll
+Install/Compiler/plugins-user/*.dll
+Install/Compiler/plugins-licensed/*.dll
 
+
+#
 # DarkBasic files
+#
+
+Dark Basic Professional TEMP
 ErrorReport.txt
+Install/Projects/*/*.exe
