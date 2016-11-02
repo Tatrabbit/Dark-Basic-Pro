@@ -4,8 +4,7 @@ version=DBP1.00
 project name=Spinning Cube
 
 ; **** source file information ****
-main=spinning-cube.dba
-final source=spinning-cube.dba
+final source=_temp
 LineMain=6
 
 ; **** Executable Information  ***
