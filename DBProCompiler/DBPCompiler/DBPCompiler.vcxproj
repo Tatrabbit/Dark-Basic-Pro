@@ -225,42 +225,52 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseACADEMIC|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDEMO|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseALWAYSCOMPILE|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseHELPTXT|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseTRIALPERIOD|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDEMO100DAY|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugLM|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDEBUG|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\include;$(DXSDK_DIR)\include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\;$(LibraryPath)</LibraryPath>
+    <TargetName>DarkBasic</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDEMO|Win32'">
     <Midl>
@@ -298,7 +308,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <ProgramDatabaseFile>.\DBPCompiler___Win32_ReleaseDEMO/DBPCompiler.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -344,7 +354,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <ProgramDatabaseFile>.\DBPCompiler___Win32_ReleaseDEMO100DAY/DBPCompiler.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -390,7 +400,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <ProgramDatabaseFile>.\DBPCompiler___Win32_ReleaseACADEMIC0/DBPCompiler.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -436,7 +446,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreSpecificDefaultLibraries>libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -485,7 +495,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreSpecificDefaultLibraries>libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -535,7 +545,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -586,7 +596,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -636,7 +646,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -686,7 +696,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -736,7 +746,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)DBPCompiler.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
