@@ -566,158 +566,34 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 			// Load All Required Internal Files
 			if(g_pDBPCompiler->EstablishRequiredBaseFiles())
 			{
-				// Validate compiler via tickprot or demoscan
-				bool bValid=false;
-				char pError[_MAX_PATH];
-				strcpy_s(pError, g_pDBPCompiler->GetWordString(6));
-
-				/* ABANDONNED PROTECTION VIA REG AND ASSIST
-				#ifdef ACADEMICMODE
-					bValid=true;
-				#else
-					#ifdef DEMOPROTECTEDMODE
-						bValid=CheckIfTrialStillValid(pError);
-					#else
-						DWORD dwR=rand()%999;
-						bValid=IsTickValidated(dwR);
-					#endif
-				#endif
-				if(bValid==true)
-				*/
-
-				// switch to compiler folder to check certificates
-				char pStoreCurrentFolder [ _MAX_PATH ];
-				_getcwd ( pStoreCurrentFolder, _MAX_PATH );
-				_chdir ( g_pDBPCompiler->GetInternalFile(PATH_ROOTPATH) );
-
-				// trial, 60day and full certificates
-				int iTrial = 0;
-				int i60Day = 1;
-				int iFull = 2;
-
-				// trial period or certificate
-				bool bCompilerSessionValid = false;
-				#ifdef TRIALPERIOD
+				// Read in Project File
 				{
-					// AGEIA TRIAL : August 2006 to November 2006
-					// NVIDIA TRIAL : October 2006 to March 2007
-
-					// Use Trial Period (forced trial period, i.e. Ageia)
-					struct tm *newtime;
-					time_t long_time;
-					time( &long_time );         
-					newtime = localtime( &long_time );
-
-					// AGEIA
-					//if ( newtime->tm_year==(2006-1900) ) // Only 2006
-					//if ( newtime->tm_mon>=7 && newtime->tm_mon<=10 ) // Only within AUG(7)-NOV(10)
-
-					// if within trial range, okay, else shutdown!
-					bool bShutDown=true;
-					if ( newtime->tm_year>=(2006-1900) && newtime->tm_year<=(2007-1900) ) // Only 2006-2007
-						if ( ( newtime->tm_year==(2006-1900) && newtime->tm_mon>=9 )      // Only after OCT06(9)
-						||   ( newtime->tm_year==(2007-1900) && newtime->tm_mon<=2 ) )    // Only before MAR07(2)
-						{					
-							// the only valid period for the compiler to function
-							bCompilerSessionValid = true;
-							bShutDown=false;
-						}
-
-					// shut down will call a webpage if expired
-					if ( bShutDown==true )
-					{
-						// Go to HTTP
-						ShellExecute(	NULL,
-										"open",
-//										"http://darkphysics.thegamecreators.com/",
-										"http://nvidia.thegamecreators.com/",
-										"",
-										"",
-										SW_SHOWDEFAULT);
-					}
+					db3::CProfile<> prof("CDBPCompiler::LoadProjectFile");
+					g_pDBPCompiler->LoadProjectFile(lpCmdLine);
 				}
-				#else
+
+				// Load in all data from fields
 				{
-					// If special FPSC-OPENSOURCE version, allow compiler
-					#ifdef ALWAYSCOMPILEMODE
-						// Use always-allow compiler mode
-						bCompilerSessionValid = true;
-					#else
-						// Use Certificate Key System
-						ReadLocalHWKey();
-						if ( AmIActive ( iTrial, NULL )==1
-						||   AmIActive ( i60Day, NULL )==1
-						||   AmIActive ( iFull,  NULL )==1 )
-						{
-							bCompilerSessionValid = true;
-						}
-					#endif
+					db3::CProfile<> prof("CDBPCompiler::GetAllProjectFields");
+					g_pDBPCompiler->GetAllProjectFields(lpCmdLine);
 				}
-				#endif
 
-				// Valid or nay
-				if ( bCompilerSessionValid )
+				// Prepare Compiler With Debug Info
 				{
-					// restore previous directory before proceeding
-					_chdir ( pStoreCurrentFolder );
-
-					// Read in Project File
-					{
-						db3::CProfile<> prof("CDBPCompiler::LoadProjectFile");
-						g_pDBPCompiler->LoadProjectFile(lpCmdLine);
-					}
-
-					// Load in all data from fields
-					{
-						db3::CProfile<> prof("CDBPCompiler::GetAllProjectFields");
-						g_pDBPCompiler->GetAllProjectFields(lpCmdLine);
-					}
-
-					// Prepare Compiler With Debug Info
-					{
-						db3::CProfile<> prof("CDBPCompiler::SetDebugMode");
-						g_DebugInfo.SetDebugMode(g_pDBPCompiler->GetDebugMode(), hInstance);
-					}
-
-					// Create EXE from DBA Filename
-					{
-						db3::CProfile<> prof("CDBPCompiler::PerformCompileOnProject");
-						g_pDBPCompiler->PerformCompileOnProject();
-					}
-
-					// Free usages
-					{
-						db3::CProfile<> prof("CDBPCompiler::FreeProjectFile");
-						g_pDBPCompiler->FreeProjectFile();
-					}
+					db3::CProfile<> prof("CDBPCompiler::SetDebugMode");
+					g_DebugInfo.SetDebugMode(g_pDBPCompiler->GetDebugMode(), hInstance);
 				}
-				else
+
+				// Create EXE from DBA Filename
 				{
-					// Protection detected invalid certificate
-					// Launch TGCONLINE to explain why...
-					STARTUPINFO si;
-					PROCESS_INFORMATION pi;
-					ZeroMemory(&si, sizeof(STARTUPINFO));
-					si.cb=sizeof(STARTUPINFO);
-					ZeroMemory(&pi, sizeof(PROCESS_INFORMATION));
-					char pFullLine[_MAX_PATH];
-					strcpy_s(pFullLine, "TGCOnline.exe");
-					if(CreateProcess(	NULL, pFullLine,
-										NULL, NULL, false,
-										NORMAL_PRIORITY_CLASS,
-										NULL, NULL,	&si, &pi))
-					{
-						// Wait until fully loaded
-						WaitForInputIdle(pi.hProcess, 5000);
+					db3::CProfile<> prof("CDBPCompiler::PerformCompileOnProject");
+					g_pDBPCompiler->PerformCompileOnProject();
+				}
 
-						// And wait for it to finish
-						DWORD uExitCode=0;
-						GetExitCodeProcess(pi.hProcess, &uExitCode);
-						while(uExitCode==STILL_ACTIVE) GetExitCodeProcess(pi.hProcess, &uExitCode);
-					}
-
-					// restore previous directory before proceeding
-					_chdir ( pStoreCurrentFolder );
+				// Free usages
+				{
+					db3::CProfile<> prof("CDBPCompiler::FreeProjectFile");
+					g_pDBPCompiler->FreeProjectFile();
 				}
 			}
 		}
