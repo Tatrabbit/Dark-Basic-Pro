@@ -5,11 +5,6 @@
     <LocalDebuggerWorkingDirectory>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">
-    <LocalDebuggerCommand>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\Guru-Game.exe</LocalDebuggerCommand>
-    <LocalDebuggerWorkingDirectory>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</LocalDebuggerWorkingDirectory>
-    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerCommand>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\FPSC-Proto-Game.exe</LocalDebuggerCommand>
     <LocalDebuggerWorkingDirectory>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</LocalDebuggerWorkingDirectory>

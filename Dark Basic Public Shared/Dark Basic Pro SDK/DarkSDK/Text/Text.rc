@@ -4,10 +4,9 @@
 
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
-//
-// Generated from the TEXTINCLUDE 2 resource.
-//
-#include "afxres.h"
+// Using standard "windows.h" for now to allow compilation with express MSVS
+//#include "afxres.h" // Generated from the TEXTINCLUDE 2 resource.
+#include "windows.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS

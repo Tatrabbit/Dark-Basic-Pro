@@ -8,7 +8,7 @@
 
 // Includes
 #include <d3d9.h>
-#include <Dxerr9.h>
+#include <Dxerr.h>
 #include <D3dx9tex.h>
 #include <D3dx9core.h>
 #include <basetsd.h>

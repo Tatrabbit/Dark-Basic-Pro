@@ -5,11 +5,6 @@
     <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\The Game Creators\FPS Creator\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">
-    <LocalDebuggerCommand>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\FPSC-Proto-Game.exe</LocalDebuggerCommand>
-    <LocalDebuggerWorkingDirectory>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</LocalDebuggerWorkingDirectory>
-    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugAPP|Win32'">
     <LocalDebuggerCommand>D:\SteamLibrary\steamapps\common\FPS Creator Reloaded\FPSC-MapEditor.exe</LocalDebuggerCommand>
     <LocalDebuggerWorkingDirectory>D:\SteamLibrary\steamapps\common\FPS Creator Reloaded\</LocalDebuggerWorkingDirectory>

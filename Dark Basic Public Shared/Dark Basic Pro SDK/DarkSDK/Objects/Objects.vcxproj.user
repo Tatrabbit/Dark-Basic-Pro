@@ -15,19 +15,6 @@
     <LocalDebuggerWorkingDirectory>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">
-    <LocalDebuggerCommand>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\Guru-Lightmapper.exe</LocalDebuggerCommand>
-    <LocalDebuggerWorkingDirectory>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files</LocalDebuggerWorkingDirectory>
-    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <RemoteDebuggerCommand>F:\The Game Creators\FPS Creator Reloaded\FPSC-MapEditor.exe</RemoteDebuggerCommand>
-    <RemoteDebuggerServerName>
-    </RemoteDebuggerServerName>
-    <RemoteDebuggerWorkingDirectory>F:\The Game Creators\FPS Creator Reloaded\</RemoteDebuggerWorkingDirectory>
-    <RemoteDebuggerAttach>false</RemoteDebuggerAttach>
-    <RemoteDebuggerCommandArguments>
-    </RemoteDebuggerCommandArguments>
-    <RemoteDebuggerConnection>RemoteWithAuthentication</RemoteDebuggerConnection>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerCommand>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\FPSC-Proto-Game.exe</LocalDebuggerCommand>
     <LocalDebuggerWorkingDirectory>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files</LocalDebuggerWorkingDirectory>

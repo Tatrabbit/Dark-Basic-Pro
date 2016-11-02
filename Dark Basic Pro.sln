@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DBPCompiler", "DBProCompiler\DBPCompiler\DBPCompiler.vcxproj", "{808902AA-836D-4AA9-9C7D-30F6250710AA}"
 	ProjectSection(ProjectDependencies) = postProject
 		{18217E4D-F8C2-44C6-9A36-31196E758A0C} = {18217E4D-F8C2-44C6-9A36-31196E758A0C}
@@ -45,10 +47,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrix", "Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Matrix\Matrix.vcxproj", "{89417A9E-4A43-4E6B-B37A-C1D8E139135D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memblocks", "Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Memblocks\Memblocks.vcxproj", "{FDB42674-ABA0-41AC-9552-C5B6A6DECDDB}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multiplayer", "Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Multiplayer\Multiplayer.vcxproj", "{72747D71-E73D-43BF-A456-B0C1411E383E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiplayerPlus", "Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\MultiplayerPlus\MultiplayerPlus.vcxproj", "{67B540E6-516C-42C0-969A-23067F571732}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Music", "Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Music\Music.vcxproj", "{9040D20A-77A9-4347-96A4-A93036F7B9DA}"
 EndProject
@@ -154,8 +152,8 @@ Global
 		{4F53B00D-F4EF-4AE0-9846-3279CD91906B}.Release|Win32.ActiveCfg = Release|Win32
 		{4F53B00D-F4EF-4AE0-9846-3279CD91906B}.Release|Win32.Build.0 = Release|Win32
 		{4F53B00D-F4EF-4AE0-9846-3279CD91906B}.Release|x64.ActiveCfg = Release|Win32
-		{06E6A302-6658-4E0E-A894-577D5BD556D7}.Debug|Win32.ActiveCfg = Release|Win32
-		{06E6A302-6658-4E0E-A894-577D5BD556D7}.Debug|Win32.Build.0 = Release|Win32
+		{06E6A302-6658-4E0E-A894-577D5BD556D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06E6A302-6658-4E0E-A894-577D5BD556D7}.Debug|Win32.Build.0 = Debug|Win32
 		{06E6A302-6658-4E0E-A894-577D5BD556D7}.Debug|x64.ActiveCfg = Debug|Win32
 		{06E6A302-6658-4E0E-A894-577D5BD556D7}.Release|Win32.ActiveCfg = Release|Win32
 		{06E6A302-6658-4E0E-A894-577D5BD556D7}.Release|Win32.Build.0 = Release|Win32
@@ -214,18 +212,6 @@ Global
 		{FDB42674-ABA0-41AC-9552-C5B6A6DECDDB}.Release|Win32.ActiveCfg = Release|Win32
 		{FDB42674-ABA0-41AC-9552-C5B6A6DECDDB}.Release|Win32.Build.0 = Release|Win32
 		{FDB42674-ABA0-41AC-9552-C5B6A6DECDDB}.Release|x64.ActiveCfg = Release|Win32
-		{72747D71-E73D-43BF-A456-B0C1411E383E}.Debug|Win32.ActiveCfg = Debug|Win32
-		{72747D71-E73D-43BF-A456-B0C1411E383E}.Debug|Win32.Build.0 = Debug|Win32
-		{72747D71-E73D-43BF-A456-B0C1411E383E}.Debug|x64.ActiveCfg = Debug|Win32
-		{72747D71-E73D-43BF-A456-B0C1411E383E}.Release|Win32.ActiveCfg = Release|Win32
-		{72747D71-E73D-43BF-A456-B0C1411E383E}.Release|Win32.Build.0 = Release|Win32
-		{72747D71-E73D-43BF-A456-B0C1411E383E}.Release|x64.ActiveCfg = Release|Win32
-		{67B540E6-516C-42C0-969A-23067F571732}.Debug|Win32.ActiveCfg = Debug|Win32
-		{67B540E6-516C-42C0-969A-23067F571732}.Debug|Win32.Build.0 = Debug|Win32
-		{67B540E6-516C-42C0-969A-23067F571732}.Debug|x64.ActiveCfg = Debug|Win32
-		{67B540E6-516C-42C0-969A-23067F571732}.Release|Win32.ActiveCfg = Release|Win32
-		{67B540E6-516C-42C0-969A-23067F571732}.Release|Win32.Build.0 = Release|Win32
-		{67B540E6-516C-42C0-969A-23067F571732}.Release|x64.ActiveCfg = Release|Win32
 		{9040D20A-77A9-4347-96A4-A93036F7B9DA}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9040D20A-77A9-4347-96A4-A93036F7B9DA}.Debug|Win32.Build.0 = Debug|Win32
 		{9040D20A-77A9-4347-96A4-A93036F7B9DA}.Debug|x64.ActiveCfg = Debug|Win32
