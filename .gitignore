@@ -4,3 +4,26 @@
 *.opensdf
 *.sdf
 *.suo
+*.pdb
+*.ilk
+*.bsc
+*.sbr
+*.exp
+*.lib
+*.log
+*.tlog
+*.obj
+DBProCompiler/DBPCompilerEXE/Debug
+DBProCompiler/DBPCompiler/DarkEXE.*
+Dark Basic Public Shared/Dark Basic Pro SDK/DarkSDK/*/Debug
+Dark Basic Public Shared/Dark Basic Pro SDK/DarkSDKMore/*/Debug
+Install/Compiler/DBPCompiler.res
+Install/Compiler/DBPCompiler.exe
+Install/Compiler/plugins-user/*.dll
+*/Debug/GameFX.res
+
+# Output
+Install/Compiler/plugins/*.dll
+
+# DarkBasic files
+ErrorReport.txt
