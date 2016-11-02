@@ -1,0 +1,9 @@
+sync on
+sync rate 60
+
+make object cube 1, 10
+
+do
+	turn object left 1, 2
+	sync
+loop
