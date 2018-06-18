@@ -15,7 +15,7 @@
 *.log
 *.tlog
 *.obj
-*.vxcproj.user
+*.vcxproj.user
 DBProCompiler/DBPCompilerEXE/Debug
 DBProCompiler/DBPCompiler/DarkEXE.*
 Dark Basic Public Shared/Dark Basic Pro SDK/DarkSDK/*/Debug
